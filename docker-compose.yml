@@ -1,0 +1,9 @@
+version: "3"
+services: 
+  python:
+    build:
+      context: ./python
+      dockerfile: Dockerfile-python
+    volumes:
+      - "./python:/src"
+    tty: true
