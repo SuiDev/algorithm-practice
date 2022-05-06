@@ -4,7 +4,6 @@ Question:
 
 Note:
     nが素数であるかどうかは、√nまでの素数で割れるかを確かめれば良い
-    
 """
 import math
 
